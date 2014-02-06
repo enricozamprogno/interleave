@@ -1,0 +1,64 @@
+README 
+
+Interleave [ http://www.interleave.nl - info AT interleave DOT nl ]
+
+PREREQUESITS
+
+You need:
+	- PHP5
+	- MySQL
+	- A Webserver
+
+	- PHP settings -
+
+	register_globals			: off 
+	magic_quotes_gpc			: off
+	max_execution_time			: 10 (at least)
+	memory_limit				: 32MB (128 MB recommended)
+	allow_url_include			: on
+	error_reporting				: E_ALL & ~E_NOTICE
+	request_order				: GPCS
+
+	- MySQL settings - 
+
+	You could consider to upgrade max_package_size when you use large attachments and
+	when using MySQL5, make sure it's not running in STRICT modus.
+
+	- Webserver -
+
+	No specific requirements
+
+
+INSTALLATION INSTRUCTIONS (for upgrading see the UPGRADING file)
+
+1. Copy all files to a webserver-accessible directory, e.g. http://yoursite.com/interleave/.
+
+1a. (optional) For easy installation, typ "chmod 777 config/config.inc.php" in your installation directory.
+
+2. Point your browser to the installation directory and follow the installation instructions.
+
+2a. (if you did 1a) do a "chmod 500 config.inc.php" in your installation directory. (and a chown if you like)
+
+3. Add a cron job to your machine to start the 2 housekeeping jobs: (this is an essential step but not needed if you're only testing)
+
+	An example cron entry: (the cron user doesn't need to be root)
+	
+	# Interleave housekeeping
+	0 8 * * *       /usr/bin/php /var/www/interleave/duedate-notify-cron.php [REPOS] [CRONPASS] 1> /dev/null 2> /dev/null
+	* * * * *	/usr/bin/php /var/www/interleave/housekeeping.php [REPOS] [CRONPASS] 1> /dev/null 2> /dev/null
+
+	This will send an e-mail notification at 8 AM and run housekeeping every minute. Entities wich will be mentioned are entities which have
+	an alarm date set to `today`.
+
+	The [REPOSNR] part resembles the repository number you'd like to send notifications for. 0 for the first, 
+	reposnr=1 for the second and so on (equal to the values in your config file).
+
+	Skip the "1> /dev/null 2> /dev/null" part if you'd like reports mailed to the user under which the crond job runs.
+
+	You can edit the cron script password using the administration interface (change system values, cronpassword). It is 
+	recommended you change this password regularly for it is transmitted in plain text.
+	
+4. READ THE ADMINISTRATION MANUAL! There are some variables which you must set!
+
+5. Done. All settings can be modified using the 'administration' page.
+

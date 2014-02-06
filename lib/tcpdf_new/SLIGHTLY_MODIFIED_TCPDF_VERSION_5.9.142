@@ -1,0 +1,5 @@
+Hacked the following lines to have a PDF footer without too much hassle
+
+tcpdf.php:3746: $pagenumtxt = $GLOBALS['PDF_DEFAULTFOOTER'] . $this->l['w_page'].' '.$this->getAliasNumPage().' / '.$this->getAliasNbPages();
+
+tcpdf.php:3748: $pagenumtxt = $GLOBALS['PDF_DEFAULTFOOTER'] . $this->l['w_page'].' '.$this->getPageNumGroupAlias().' / '.$this->getPageGroupAlias();

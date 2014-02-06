@@ -1,0 +1,463 @@
+# Interleave LANGUAGE PACK EXPORT FILE - Pack ENGLISH.
+# Generated February 27, 2011, 14:08 on Interleave version Interleave 5.5.0.2 (c) 2001-2011
+PACK|||ENGLISH|||459
+ENGLISH|||IHSwarning|||IHS field not found, all qty/hours will be defaulted to 1
+ENGLISH|||abdnya|||All but inserted (not yet assigned)
+ENGLISH|||addaccount|||Add an account
+ENGLISH|||addconditiontothisselection|||Add condition to this selection
+ENGLISH|||addcusttodb|||Add a customer request to the database
+ENGLISH|||addcust|||Add a customer
+ENGLISH|||addhelp|||Add a help entry:
+ENGLISH|||addownass|||Add a owner/assignee
+ENGLISH|||addtopb|||Add to phonebook
+ENGLISH|||addu|||Add user
+ENGLISH|||addyourcommentshere|||Add your comments here
+ENGLISH|||add|||Add entity
+ENGLISH|||adjustdatefilter|||change date filter
+ENGLISH|||administrationverb|||Administrator functions
+ENGLISH|||administration|||Administration
+ENGLISH|||adminrights|||Administrator
+ENGLISH|||adm|||Administration
+ENGLISH|||advancedselectionsbuilder|||Advanced selections builder
+ENGLISH|||advanced|||advanced
+ENGLISH|||after|||after
+ENGLISH|||alarmdatev|||Set an alarm for this entity
+ENGLISH|||alarmdate|||Alarm date
+ENGLISH|||alarmsettings|||Alarm settings
+ENGLISH|||alled|||All except deleted
+ENGLISH|||allround|||All values are rounded
+ENGLISH|||allusersinprofile|||all users in profile
+ENGLISH|||all|||All
+ENGLISH|||alreadyselected|||<b>Your query is stored</b>
+ENGLISH|||andassignee|||and assignee
+ENGLISH|||anyfieldinthistable|||Any field in this table
+ENGLISH|||anyfield|||Any field
+ENGLISH|||aohnsae|||Other owners have no self-assigned entities.
+ENGLISH|||apply|||Apply changes
+ENGLISH|||apseat|||After processing, set entity assignee to
+ENGLISH|||apseot|||After processing, set entity owner to
+ENGLISH|||apsest|||After processing, set entity status to
+ENGLISH|||apsrft|||After processing, set readonly flag to
+ENGLISH|||assignedto|||assigned to
+ENGLISH|||assignee|||Assignee
+ENGLISH|||atac|||and thus also closed
+ENGLISH|||attachfile|||Attach file
+ENGLISH|||attachindividualtocustomer|||Attach individual files to customer dossier
+ENGLISH|||attachindividualtoentity|||Attach individual files to entity
+ENGLISH|||before|||before
+ENGLISH|||bookmarkselection|||Create bookmark based on selected fields
+ENGLISH|||brieflistdel|||View a brief list of the deleted entities in the database
+ENGLISH|||briefover|||Brief entity overview
+ENGLISH|||briefo|||Brief overview
+ENGLISH|||briefsum|||Brief
+ENGLISH|||btmap|||back to main administration page
+ENGLISH|||buildsaveandeditselections|||Build, save and edit selections
+ENGLISH|||cancel|||Cancel
+ENGLISH|||category|||Category
+ENGLISH|||checktodelete|||Check this box to delete mail settings
+ENGLISH|||chgpwdallrepwarning|||(only works when your name and password are the same)
+ENGLISH|||chgpwdallrep|||Alter your password on all repositories
+ENGLISH|||chgsys|||Change system values
+ENGLISH|||clearfilter|||clear filter
+ENGLISH|||clearpassword|||Forget password
+ENGLISH|||clearusername|||Forget username
+ENGLISH|||clear|||clear
+ENGLISH|||closedate|||Closure date
+ENGLISH|||closethisentity|||Close this entity
+ENGLISH|||close|||Close
+ENGLISH|||commawarning|||Since you chose to import a comma-separated file, be aware that combinations like Last_name,First_name (which are commonly used in MS Outlook) can produce undesireable results.
+ENGLISH|||company|||Company
+ENGLISH|||composenewmessage|||Compose new message
+ENGLISH|||confdel|||Confirm deletion
+ENGLISH|||confirmdel|||Click here to delete this entity
+ENGLISH|||confphysdel|||Please confirm physical deletion by clicking the button below.
+ENGLISH|||contactemail|||Contact e-mail
+ENGLISH|||contactphone|||Contact phone
+ENGLISH|||contacts|||Contacts
+ENGLISH|||contacttitle|||Contact title
+ENGLISH|||contact|||Contact
+ENGLISH|||contents|||Contents
+ENGLISH|||cookiewarning|||Do not use this function on public computers!
+ENGLISH|||copyselectionwarning|||Existing selections with the same name will be overwritten
+ENGLISH|||copyselection|||Copy selection
+ENGLISH|||cqp|||Colon quoted-printable (:)
+ENGLISH|||createanewselection|||Create a new selection
+ENGLISH|||created|||created
+ENGLISH|||createinvoice|||Generate invoice over entity
+ENGLISH|||createreports|||Generate entity reports
+ENGLISH|||createreport|||Create an entity report for entity
+ENGLISH|||creationdate|||Creation date
+ENGLISH|||csvnow|||Change system values
+ENGLISH|||csvwarning|||When the download-dialog box appears, choose 'open file from current location'.<br> This box may occur again. When it does, click "open" again. This should spawn MS Excel <br>with your exported data.
+ENGLISH|||cuaeoay|||Counted using <u>all</u> closed entities in the database, over <u>all</u> years
+ENGLISH|||currentbookmarks|||Bookmarks
+ENGLISH|||currentlyeditingownselections|||You're currently editing your personal selections.
+ENGLISH|||currentpassword|||Current password
+ENGLISH|||curstat|||Current status
+ENGLISH|||custdelexplain|||This customer cannot be deleted because there are entities belonging to this customer
+ENGLISH|||custhomepage|||Homepage
+ENGLISH|||custindb|||Customers in database
+ENGLISH|||customeraddress|||Customer address
+ENGLISH|||customers|||Customers
+ENGLISH|||customer|||Customer
+ENGLISH|||custremarks|||Remarks
+ENGLISH|||dailymail|||Receive daily mail with entities assigned to you
+ENGLISH|||dashboard|||Dashboard
+ENGLISH|||datefield|||Date field
+ENGLISH|||datefilteractive|||<font color='#ff0000'><strong>Date filter active</strong></font>
+ENGLISH|||dateformat|||Date format
+ENGLISH|||dateinvalid|||The date you entered is invalid.n The date value is unset.
+ENGLISH|||date|||Date
+ENGLISH|||daysbeforenow|||days before [now]
+ENGLISH|||daysfromnow|||days from [now]
+ENGLISH|||deap|||Delete entities after processing
+ENGLISH|||defVAT|||Default VAT
+ENGLISH|||delafterproc|||Delete entities after processing
+ENGLISH|||delallclosed|||Delete all closed entities
+ENGLISH|||delcust|||Delete this customer (<b>no</b> confirmation asked)
+ENGLISH|||delentities|||Deleted entities
+ENGLISH|||deleteallfrominbox|||Delete all messages from inbox
+ENGLISH|||deleteallreadfrominbox|||Delete read messages from inbox
+ENGLISH|||deletedatefilter|||clear date filter
+ENGLISH|||deleted|||Deleted
+ENGLISH|||deleteerror|||Since this entity is not yet closed you cannot delete it!
+ENGLISH|||deletefile|||Delete
+ENGLISH|||deletepb|||Delete
+ENGLISH|||deletethisentity|||Delete this entity
+ENGLISH|||delete|||Delete
+ENGLISH|||deleting1|||Deleting
+ENGLISH|||deleting2|||file(s). Please confirm by clicking the button below.
+ENGLISH|||deletingentity|||Deleting entity
+ENGLISH|||delfile|||Deleting physical file
+ENGLISH|||dep|||Department
+ENGLISH|||discription|||Description
+ENGLISH|||dlacsv|||Download result as CSV
+ENGLISH|||dlmspdf|||or click here to download the (more compact) PDF report
+ENGLISH|||doesntbelonghere|||This entity really doesn"t belong here
+ENGLISH|||doesntcsv|||Doesn't belong here
+ENGLISH|||donothing|||<do nothing>
+ENGLISH|||dontbelonghere|||Entities that don't belong here
+ENGLISH|||downloadexport|||Download exportfile
+ENGLISH|||downloadpdfs|||Download PDF report
+ENGLISH|||downloadpdf|||Download PDF report of this entity
+ENGLISH|||downloadsumcsv|||Download summary in Excel-format
+ENGLISH|||downloadsumpdf|||Download summary as PDF-file
+ENGLISH|||dta|||Delete this account
+ENGLISH|||duedate|||Due date
+ENGLISH|||dumpi|||Dump a character separated scheme of the database for export purposes
+ENGLISH|||duplicate|||Duplicate
+ENGLISH|||eahelp|||Add / edit help topics
+ENGLISH|||earlierversions|||Earlier versions
+ENGLISH|||eatm|||Entities added this month
+ENGLISH|||eatu|||Entities assigned to users
+ENGLISH|||eatw|||Entities added this week
+ENGLISH|||ectm|||Entities closed this month
+ENGLISH|||ectw|||Entities closed this week
+ENGLISH|||edd|||Expired due dates
+ENGLISH|||editaccount|||Edit an account
+ENGLISH|||editextras|||Edit extra values
+ENGLISH|||editingsystemselections|||You're currently editing system-wide selections.
+ENGLISH|||editing|||Editing
+ENGLISH|||editpersonalselections|||Edit personal selections
+ENGLISH|||editsystemselections|||Edit system-wide selections
+ENGLISH|||editthis|||Edit this entity
+ENGLISH|||edit|||Edit
+ENGLISH|||ela|||Editing login account
+ENGLISH|||emailallupdates|||E-mail all entity updates
+ENGLISH|||enddate|||End date
+ENGLISH|||endofpbexport|||<red> -- End of report --
+ENGLISH|||endofreport|||End of report. Have an extremely nice day
+ENGLISH|||entitiesfound|||entities found.
+ENGLISH|||entitiestoday|||Entities due today
+ENGLISH|||entities|||Entities
+ENGLISH|||entity|||Entity
+ENGLISH|||entreportverbose|||Batch-generate entity RTF reports
+ENGLISH|||entrysaved|||Entry saved as number
+ENGLISH|||entsum|||entity summary
+ENGLISH|||eobu|||Entities owned by users
+ENGLISH|||eor|||End of report
+ENGLISH|||epc|||Entities per customer
+ENGLISH|||etdbh|||Entities that don't belong here
+ENGLISH|||ewfsea|||Entities waiting for somebody else's action
+ENGLISH|||expired|||This entities due date is expired!
+ENGLISH|||exportincompletelayout|||Download Excel sheet (all fields)
+ENGLISH|||exportinlistlayout|||Download Excel sheet (fields in this list)
+ENGLISH|||extrafields|||Extra fields
+ENGLISH|||fieldname|||Field name
+ENGLISH|||fields|||fields
+ENGLISH|||filename|||Filename
+ENGLISH|||filesize|||Filesize
+ENGLISH|||fname|||First name
+ENGLISH|||friday_short|||fri
+ENGLISH|||friday|||Friday
+ENGLISH|||geninv|||Generate invoices
+ENGLISH|||genmailverbose|||Generate invoices and mailmerges
+ENGLISH|||gotomainpage|||Go to main page
+ENGLISH|||go|||Go!
+ENGLISH|||group|||Group
+ENGLISH|||hasfilessum|||This entity has files attached
+ENGLISH|||havetoenterpwd|||Since your account does not have administrator priviledges you have to enter the administrator password
+ENGLISH|||helpcontentsverb|||Show content list of available help
+ENGLISH|||helpcontents|||Help contents
+ENGLISH|||host|||Host
+ENGLISH|||hours|||hours
+ENGLISH|||hour|||Hour
+ENGLISH|||iftynmvhpcysa|||If you think you need more fieldname values here, please contact your CRM system administrator.
+ENGLISH|||ignored|||records were ignored because of an empty name field.
+ENGLISH|||imported|||print "There were $imported records imported.";
+ENGLISH|||importinpb|||Import phonebook records
+ENGLISH|||impphone|||Import phonebook records
+ENGLISH|||impwarning|||To exclude a record from being imported, empty the firstname-field. Correct faulty records.
+ENGLISH|||inccont|||Include entity contents
+ENGLISH|||incldel|||Include deleted entities
+ENGLISH|||includelog|||Include log at end of document
+ENGLISH|||includingcolumnlayout|||including column layout
+ENGLISH|||incomingmessages|||Incoming messages
+ENGLISH|||intro1|||This tool is used to log and assign customer questions. At this moment there are
+ENGLISH|||intro2|||users registered,<br>which have a total of
+ENGLISH|||intro3|||entities logged, for
+ENGLISH|||intro4|||customers.
+ENGLISH|||invoiceandmailmerge|||Invoice & mailmerge
+ENGLISH|||isdeleted|||This is a deleted entity
+ENGLISH|||isdel|||has been deleted
+ENGLISH|||iswaiting|||Waiting for somebody else"s action
+ENGLISH|||kqp|||Comma quoted-printable (,)
+ENGLISH|||language|||Language
+ENGLISH|||last5messages|||Last 5 messages
+ENGLISH|||lastlogon|||Last logon
+ENGLISH|||lastmonth|||Last month
+ENGLISH|||lastupdatedate|||Last update date
+ENGLISH|||lastupdatetime|||Last update time
+ENGLISH|||lastupdate|||last update
+ENGLISH|||lastweek|||Last week
+ENGLISH|||lastyearq1|||Last year Q1
+ENGLISH|||lastyearq2|||Last year Q2
+ENGLISH|||lastyearq3|||Last year Q3
+ENGLISH|||lastyearq4|||Last year Q4
+ENGLISH|||lastyear|||Last year
+ENGLISH|||lefae|||Leave empty for all entities
+ENGLISH|||limited|||Limited
+ENGLISH|||listofatt|||List of files currently attached to this entity
+ENGLISH|||lname|||Last name
+ENGLISH|||logout|||Logout
+ENGLISH|||lostlock|||You no longer lock this entity. save it a.s.a.p.
+ENGLISH|||mailboxsettings|||Mailbox settings (POP3 only)
+ENGLISH|||maintenancemodeison|||This repository is in maintenance mode. You cannot enter it now, please try again later
+ENGLISH|||main|||Main
+ENGLISH|||manacc|||Manage accounts
+ENGLISH|||managebookmarks|||Manage bookmarks
+ENGLISH|||managementheader|||Welcome to the limited interface. You are logged on as
+ENGLISH|||managerepositories|||Manage repositories
+ENGLISH|||maninfoverb|||Statistic reports for management information purposes
+ENGLISH|||maninfo|||Management information
+ENGLISH|||messageinbox|||Message inbox
+ENGLISH|||mightbebetter|||It might be better to use the summary option!
+ENGLISH|||monday_short|||mo
+ENGLISH|||monday|||Monday
+ENGLISH|||month10|||October
+ENGLISH|||month11|||November
+ENGLISH|||month12|||December
+ENGLISH|||month1|||January
+ENGLISH|||month2|||February
+ENGLISH|||month3|||March
+ENGLISH|||month4|||April
+ENGLISH|||month5|||May
+ENGLISH|||month6|||June
+ENGLISH|||month7|||July
+ENGLISH|||month8|||August
+ENGLISH|||month9|||September
+ENGLISH|||mu_pressbutton|||Press button
+ENGLISH|||mu_set|||Set
+ENGLISH|||mu_to|||to
+ENGLISH|||mustbeafter|||Must be after
+ENGLISH|||mustbebefore|||Must be before
+ENGLISH|||mustchangepwd|||You <b>must</b> change your password right now
+ENGLISH|||mustcontain|||Entity must contain text
+ENGLISH|||mustnotcontain|||must NOT contain
+ENGLISH|||name|||Name
+ENGLISH|||newentity|||New entity
+ENGLISH|||newfile|||New file
+ENGLISH|||newpasswordconfirm|||New password (confirm)
+ENGLISH|||newpassword|||New password
+ENGLISH|||newversionof|||New version of
+ENGLISH|||nextmonth|||Next month
+ENGLISH|||nextweek|||Next week
+ENGLISH|||nimut|||An error occured!<br><br>This account exists, but it<br>doesn't refer to any user in the database to which entities could be assigned.<br><br>Check the name (and the case) and try again.
+ENGLISH|||noaction|||Error, no action submitted
+ENGLISH|||nobookmarks|||No bookmarks defined
+ENGLISH|||nocustomers1|||There are no customers configured. Before you can start using CRM, you must do this. Click on 'Customers'' to add at least 1 customer!
+ENGLISH|||noentities|||There are no entities due for today
+ENGLISH|||nomessages|||No messages
+ENGLISH|||nonexistent|||You entered a non-existing Entity number!
+ENGLISH|||none|||None
+ENGLISH|||noopen|||There are no open entities.
+ENGLISH|||nopwd|||Since your account has administrator priviledges you were not prompted for a password.
+ENGLISH|||noresults|||This query had no results.
+ENGLISH|||normal|||Normal
+ENGLISH|||notsetdefault|||not set / default
+ENGLISH|||nousers1|||There are no owners / assignees configured. Before you can start using CRM, you must do this. Click on 'Owners/Assignees' to add possible owners and assignees!
+ENGLISH|||nousersandnocustomers1|||There are no customers and no possible Owners/Assignees configured. Before you can start using CRM, you must do this. Click on 'Customers'' to add at least 1 customer, and next on 'Owners/Assignees' to add at least 1 possible Owner/Assignee!
+ENGLISH|||no|||No
+ENGLISH|||oaoedbh|||of all <b>open</b> entities doesn't belong here
+ENGLISH|||oa|||Owners/assignees
+ENGLISH|||ocsvifb|||Or change system values in form below
+ENGLISH|||oefm|||Open entities for
+ENGLISH|||oepa|||Overdue entities per assignee
+ENGLISH|||ofwhich|||of which
+ENGLISH|||of|||Of
+ENGLISH|||oldest|||oldest
+ENGLISH|||ombla|||Or : maybe entities which aren't assiged yet or couldn't be assigned (...)
+ENGLISH|||onavarage|||On average
+ENGLISH|||ondaa|||Only non-deleted and assigned
+ENGLISH|||onlyactive|||Only active
+ENGLISH|||openentities|||open entities
+ENGLISH|||openinnewwindow|||Open in new window
+ENGLISH|||options|||Options
+ENGLISH|||oqs|||Overall quick summary
+ENGLISH|||orblank|||or blank
+ENGLISH|||orcreateanewselection|||or create a new selection
+ENGLISH|||ownassindb|||Owners or assignees in database
+ENGLISH|||ownedby|||owned by
+ENGLISH|||owner|||Owner
+ENGLISH|||packman|||Manage language packs
+ENGLISH|||passmatcherror|||Passwords do not match. Press 'back' in your browser and re-type password.
+ENGLISH|||passwarning|||Your password is not strong enough.
+ENGLISH|||passwarn|||leave both blank to keep current password
+ENGLISH|||password|||Password
+ENGLISH|||paste|||Paste your text here ...
+ENGLISH|||pbaddrec|||add a record
+ENGLISH|||pbapp|||Your changes are applied.
+ENGLISH|||pbcont1|||This phonebook contains
+ENGLISH|||pbcont2|||entries
+ENGLISH|||pbdelconf|||Are you sure you want to delete this record?
+ENGLISH|||pbexpmade|||Phonebook export created
+ENGLISH|||pbexport|||phonebook export
+ENGLISH|||pbimpwarning|||The CSV data you paste <i>must</i> contain all fields, although they may be empty:
+ENGLISH|||pbrecadded|||Your record was added to the phonebook.
+ENGLISH|||pbresults|||Results for your query
+ENGLISH|||pbwarning|||Please fill in at least the last name!
+ENGLISH|||pdfreport|||PDF Report
+ENGLISH|||personallistsettingcolumnstoshow|||Personal list setting columns to show
+ENGLISH|||phonebook1|||Phonebook
+ENGLISH|||phonebookshort|||PB
+ENGLISH|||physdelwarning|||Please enter the entity ID of the <b>closed and deleted</b> entity you want to <b>physically</b> delete:
+ENGLISH|||physdel|||Physically delete a deleted entity
+ENGLISH|||pleasechoose|||Please choose one of the options hereunder:
+ENGLISH|||pleaseenter|||Please enter your username and password
+ENGLISH|||please|||Please make your choice...
+ENGLISH|||plzenterpwd|||Please enter password
+ENGLISH|||priority|||Priority
+ENGLISH|||private|||Private
+ENGLISH|||pushpdf|||Download results as PDF-file
+ENGLISH|||readonly|||Read-only to other users
+ENGLISH|||remarks|||Remarks
+ENGLISH|||repdownloaded|||Report downloaded
+ENGLISH|||resfound|||matches found
+ENGLISH|||room|||Room
+ENGLISH|||rtftemplate|||RTF Template
+ENGLISH|||sae|||Self-assigned entities
+ENGLISH|||saturday_short|||sat
+ENGLISH|||saturday|||Saturday
+ENGLISH|||saveasnewentity|||Save as new entity
+ENGLISH|||saveclose|||Save and close
+ENGLISH|||savedselection|||Saved selection
+ENGLISH|||savepassword|||Remember password
+ENGLISH|||saveusername|||Remember username
+ENGLISH|||save|||Save to database
+ENGLISH|||scqp|||Semicolon quoted-printable (;) (recommended)
+ENGLISH|||search|||Search
+ENGLISH|||selectbookmark|||Select bookmark
+ENGLISH|||selectcolumns|||select columns
+ENGLISH|||selectfields|||Please select the fields you want to appear in your export
+ENGLISH|||selectioncopied|||Selection successfully copied
+ENGLISH|||selectiondesc|||Selection description
+ENGLISH|||selectionmustcontain|||must contain
+ENGLISH|||selectionname|||Selection name
+ENGLISH|||selections|||selections
+ENGLISH|||selectsingle|||Select a single customer
+ENGLISH|||selfassig|||Self-assigned
+ENGLISH|||sendmessage|||Send message
+ENGLISH|||sep|||Separation character
+ENGLISH|||setdatefilter|||advanced date filter
+ENGLISH|||setting|||Setting
+ENGLISH|||set|||set
+ENGLISH|||showonly|||Show only
+ENGLISH|||showresults|||Report method
+ENGLISH|||showwhenempty|||Show empty
+ENGLISH|||signedoffdue1|||You were signed off due to
+ENGLISH|||signedoffdue2|||minutes of inactivity
+ENGLISH|||signedoff|||You signed off. Please type your username and password to log in again
+ENGLISH|||sitestatsverb|||This website"s statistic information
+ENGLISH|||sitestats|||Site statistics
+ENGLISH|||smtsm|||Select more to see more...
+ENGLISH|||startdate|||Start date
+ENGLISH|||status|||Status
+ENGLISH|||stillchecked1|||This file is still locked for editing by
+ENGLISH|||stillchecked2|||. Please stop editing this file before trying to check it in.
+ENGLISH|||sts|||Summaries to show
+ENGLISH|||summary|||Summary
+ENGLISH|||sumverb|||View and print more advanced summaries
+ENGLISH|||sunday_short|||sun
+ENGLISH|||sunday|||Sunday
+ENGLISH|||sysmsg|||The system administrator has left a message for you
+ENGLISH|||tad|||entities counted, the overall average 'open-time' from adding a new entity till closing that entity was
+ENGLISH|||tawu|||The account was updated
+ENGLISH|||teaair|||The entity and all its references were physically deleted
+ENGLISH|||tel|||Telephone
+ENGLISH|||thereare|||There are
+ENGLISH|||thisdoesntbelong|||This entity really doesn't belong here
+ENGLISH|||thisiswaiting|||This entity is waiting for somebody else's action.
+ENGLISH|||thismonth|||This month
+ENGLISH|||thisquarter|||This quarter
+ENGLISH|||thisweek|||This week
+ENGLISH|||thisyearq1|||This year Q1
+ENGLISH|||thisyearq2|||This year Q2
+ENGLISH|||thisyearq3|||This year Q3
+ENGLISH|||thisyearq4|||This year Q4
+ENGLISH|||thisyear|||This year
+ENGLISH|||thursday_short|||thu
+ENGLISH|||thursday|||Thursday
+ENGLISH|||time|||time
+ENGLISH|||title|||Title
+ENGLISH|||today|||Today
+ENGLISH|||tolimited|||Due to insufficient priviledges you are redirected to the limited interface.
+ENGLISH|||tomorrow|||Tomorrow
+ENGLISH|||total|||Total
+ENGLISH|||tuesday_short|||tue
+ENGLISH|||tuesday|||Tuesday
+ENGLISH|||uinw|||Update in new window
+ENGLISH|||undelete|||undelete
+ENGLISH|||username|||Username
+ENGLISH|||users|||Users
+ENGLISH|||usrwarning|||If a box is disabled (grey), it means this owner or assignee has his or her own limited login account, and therefore the name may not be changed<br>for the reference between these accounts would then be lost.
+ENGLISH|||uwchala|||Users which could have a limited account
+ENGLISH|||vacc|||View, add or change customers
+ENGLISH|||vacoa|||View, add or change possible owners and assignees
+ENGLISH|||value|||Value
+ENGLISH|||verbosewithcontents|||Verbose with contents
+ENGLISH|||verbose|||Verbose
+ENGLISH|||version|||Version
+ENGLISH|||viewbrief|||View a brief list of the current entities in the database
+ENGLISH|||viewdelentities|||View deleted entities
+ENGLISH|||viewfiles|||View files in database
+ENGLISH|||viewinsertedentities|||Inserted entities
+ENGLISH|||viewlog|||View log entries & stats
+ENGLISH|||waitingcsv|||Waiting
+ENGLISH|||wasadded|||was added.
+ENGLISH|||wasclosed|||This entity was closed
+ENGLISH|||wasdeleted|||was deleted
+ENGLISH|||wednesday_short|||wed
+ENGLISH|||wednesday|||Wednesday
+ENGLISH|||weeksbeforenow|||weeks before [now]
+ENGLISH|||weeksfromnow|||weeks from [now]
+ENGLISH|||welcome1|||Welcome to the
+ENGLISH|||welcome|||Welcome
+ENGLISH|||withselected|||With selected
+ENGLISH|||wrongpwd|||Wrong password. Please try again or get lost
+ENGLISH|||yesterday|||Yesterday
+ENGLISH|||yes|||Yes
+ENGLISH|||youngest|||youngest
+ENGLISH|||yourmessagewassend|||Your message was send as message id :
+ENGLISH|||zailo|||zero assigned is left out
+ENGLISH|||zoilo|||zero owned is left out
+ENGLISH|||addtodiary|||Add to diary!

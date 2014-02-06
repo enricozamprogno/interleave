@@ -1,0 +1,98 @@
+table {
+  border-collapse: collapse;
+  empty-cells: show;
+}
+fieldset
+{
+  border: #bbb solid 1px;
+  padding: 7px 7px 7px 7px;
+}
+
+body {
+	background-color: #DBE1F3;
+}
+
+table.crm {
+	  border-collapse: collapse;
+	  empty-cells: show;
+
+}
+
+td { 
+	font-size: x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+
+a	 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px; color: #000000; 
+	text-decoration: none
+	}
+
+a:hover { 
+	color: #FF8746;
+	}
+
+table.crm3 {
+  border-spacing: 20px 10px;
+  border-collapse: separate;
+  padding: 15px 5px;
+  border: 1px solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #BEBEBE;
+  empty-cells: show;
+  text-indent: 10px;
+  margin: 20px;
+}
+td.crm3 {
+  margin: 10px;
+}
+
+table.crm2 {
+  border-collapse: collapse;
+  border-spacing: 10px;
+  border: 2px solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #000000;
+  empty-cells: show;
+}
+
+table.crm4 {
+ border-collapse: collapse;
+  border-spacing: 10px;
+  border: 1px solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #BEBEBE;
+  empty-cells: show;
+}
+table.crm4 td,th {
+	border-width: 1px;
+	padding: 6px;
+	border-color: #BEBEBE;
+	border-style: inset;
+}
+table.crm {
+  border-collapse: collapse;
+  border-spacing: 10px;
+  border: 1px solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #BEBEBE;
+  empty-cells: show;
+}
+table.crm td,th {
+	border-width: 1px;
+	padding: 2px;
+	border-color: #BEBEBE;
+	border-style: inset;
+}
+table.crmblanktr {
+	border: none;
+}tr.crmblanktr {
+	border: none;
+}
+td.crmblank {
+	border: none;
+}
+td.crmblank2 {
+	border: none;
+}

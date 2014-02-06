@@ -1,0 +1,48 @@
+ul#menublue { margin:0; padding:0; list-style-type:none; }
+
+ul#menublue li { position:relative; float:left; border-top:4px solid #efefef; margin-right: 15px; padding-right: 20px; padding-top: 5px;}
+
+ul#menublue .current { border-top:4px solid #3d496a;}
+
+ul#menublue li:hover { border-top:4px solid #3d496a;}
+
+ul#menublue li a { padding:2px 2px; text-decoration:none; font:bold 12px Verdana, Georgia, "Times New Roman", Times, serif; color:#68759c;}
+
+ul#menublue li a:hover { color:#8895b8; border:none; }
+
+ul#menublue li span{ display:none; position:absolute; top:20px; left:2px; width:160px; font:normal 9px Verdana, Georgia, "Times New Roman", Times, serif; line-height: 15px; }
+
+ul#menublue li a:hover span {margin-top: 7px; display:block; color: #8895b8;}
+
+ul#menugreen { margin:0; padding:0; list-style-type:none; }
+
+ul#menugreen li { position:relative; float:left; border-top:4px solid #d7ebd5; margin-right: 15px; padding-right: 20px; padding-top: 5px;}
+
+ul#menugreen .current { border-top:4px solid #3c633c;}
+
+ul#menugreen li:hover { border-top:4px solid #3c633c;}
+
+ul#menugreen li a { padding:2px 2px; text-decoration:none; font:bold 12px Verdana, Georgia, "Times New Roman", Times, serif; color:#3d6c3d;}
+
+ul#menugreen li a:hover { color:#89be89; border:none; }
+
+ul#menugreen li span{ display:none; position:absolute; top:20px; left:2px; width:160px; font:normal 9px Verdana, Georgia, "Times New Roman", Times, serif;  line-height: 15px;}
+
+ul#menugreen li a:hover span {margin-top: 7px; display:block; color: #89be89;}
+
+
+ul#menured { margin:0; padding:0; list-style-type:none; }
+
+ul#menured li { position:relative; float:left; border-bottom:4px solid #edcbcb; margin-right: 15px; padding-right: 20px; padding-top: 5px;}
+
+ul#menured .current { border-bottom:4px solid #953434;}
+
+ul#menured li:hover { border-bottom:4px solid #953434;}
+
+ul#menured li a { padding:2px 2px; text-decoration:none;}
+
+ul#menured li a:hover { color:#b17878; border:none; }
+
+ul#menured li span{ display:none; position:absolute; top:20px; left:2px; width:160px; font:normal 9px Verdana, Georgia, "Times New Roman", Times, serif;  line-height: 15px;}
+
+ul#menured li a:hover span {margin-top: 7px; display:block; color: #b17878;}

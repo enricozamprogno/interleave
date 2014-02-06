@@ -1,0 +1,107 @@
+
+#closedItemsBar
+{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	z-index: 95000;
+	background-color: #FFFFFF;
+	border: 1px solid @DFT_LEGEND_CLR@;
+	white-space: nowrap;
+	padding: 5px;
+	width: auto;
+	display: none;
+	color: #000000;
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+td.calheadcelltoday
+{
+	color: #FFFFFF;
+	background-color: @DFT_LEGEND_CLR@;
+	font-weight: bold;
+	padding: 7px;
+}
+
+
+
+td.calselect:hover
+{
+	background-color: @DFT_LEGEND_CLR@;
+	cursor: pointer;
+}
+
+body
+{
+	color: @DFT_PLAIN_CLR@;
+	font-size: @DFT_FONT_SIZE@px;
+	font-family: @DFT_FONT_FACE@, Pontano, Verdana, 'Trebuchet MS', Geneva, Arial, Helvetica, sans-serif;
+}
+
+
+a
+{
+	color: @DFT_FG_CLR@;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover
+{
+	color: @DFT_FG_CLR@;
+}
+
+a.arrow
+{
+	color: @DFT_FG_CLR@;
+	text-decoration: none;
+	padding-left: 0px;
+	cursor: pointer;
+}
+a.lock
+{
+	color: @DFT_FG_CLR@;
+	text-decoration: none;
+	background-image: url(images/lock.png);
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+	padding-left: 14px;
+	cursor: pointer;
+}
+
+.autocomplete-w1 { 
+	position:absolute;
+	top:0px;
+	left:0px;
+	background: #FFFFFF;
+	border: 1px solid @DFT_LEGEND_CLR@;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #888;
+	 /* IE6 fix: */ _background:none;
+	 _margin:1px 0 0 0;
+	 cursor: pointer;
+}
+
+.autocomplete .selected { 
+	background: @DFT_LEGEND_CLR@;
+}
+
+.highlightedselectbox {
+	border: 2px solid @DFT_LEGEND_CLR@;
+}
+
+.plainnavliactive a {
+	color: #c60;
+	font-weight: bold;
+	border-left-color: #a4a4a4;
+	border-right-color: #a4a4a4;
+	background:-webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #b4b4b4), color-stop(0.6, white));
+	background:-moz-linear-gradient(center bottom, #b4b4b4 0%, white 60%) repeat scroll 0 0;
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#b4b4b4');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#b4b4b4')";
+	color: @DFT_FG_CLR@;
+	/* border: 2px solid #808080;*/
+}
