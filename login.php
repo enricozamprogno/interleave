@@ -12,13 +12,18 @@
 *
 **********************************************************************
 */
+require_once("initiate.php");
+// Hook:Maestrano
+// Redirect to SSO login
+if ($maestrano->isSsoEnabled()) {
+  header("Location: " . $maestrano->getSsoInitUrl());
+  exit;
+}
+
 if ($_REQUEST['username'] != "" && $_REQUEST['password'] != "") {
-	require("initiate.php");
 	require("index.php");
 	exit;
 } else {
-
-	require_once("initiate.php");
 	include($GLOBALS['CONFIGFILE']);
 	do_language();
 	$requested_page	= str_replace("|", "&", $_REQUEST['url_to_go_to']);

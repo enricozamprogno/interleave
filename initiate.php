@@ -16,7 +16,6 @@
 if (!$GLOBALS['INITIATED']) {
 	/* Set internal character encoding to UTF-8 */
 	//mb_internal_encoding("UTF-8");
-
 	$t = $_SERVER['SCRIPT_FILENAME'];
 	$t = str_replace("\\","/", $t);
 	$u = explode("/", $t);
@@ -25,7 +24,7 @@ if (!$GLOBALS['INITIATED']) {
 		$path .= $u[$p] . "/";
 	}
 
-
+  
 	
 	$GLOBALS['PATHTOINTERLEAVE'] = $path;
 
@@ -55,7 +54,20 @@ if (!$GLOBALS['INITIATED']) {
 	if (isset($_REQUEST['fileid']))			$_REQUEST['fileid']		 = htme($_REQUEST['fileid']);
 	if (isset($_REQUEST['tid']))			$_REQUEST['tid']		 = htme($_REQUEST['tid']);
 
-
+  
+  // Hook:Maestrano
+  // Load Maestrano
+  session_start();
+  require $GLOBALS['PATHTOINTERLEAVE'] . 'maestrano/app/init/base.php';
+  $maestrano = MaestranoService::getInstance();
+  // Require authentication straight away if intranet
+  // mode enabled
+  if ($maestrano->isSsoIntranetEnabled()) {
+    if (!$maestrano->getSsoSession()->isValid()) {
+      header("Location: " . $maestrano->getSsoInitUrl());
+    }
+  }
+  
 
 	if (!is_array($host)) {
 		header("Location: install.php"); /* Redirect browser */
@@ -64,7 +76,6 @@ if (!$GLOBALS['INITIATED']) {
 		exit;
 
 	} else {
-		
 		
 		if ($_REQUEST['repository'] == "" && $_REQUEST['repositoryToLoginTo'] == "") {
 			$_REQUEST['repositoryToLoginTo'] = "0";
@@ -77,8 +88,6 @@ if (!$GLOBALS['INITIATED']) {
 			}
 			
 			if ($_REQUEST['repository'] != "") {
-
-
 				unset($_COOKIE['repository']);
 				$GLOBALS['REPOSITORY'] = $_REQUEST['repository'];
 				setcookie('repository', $_REQUEST['repository']);
@@ -134,7 +143,17 @@ if (!$GLOBALS['INITIATED']) {
 				}
 			}
 		} elseif ($_COOKIE['session'] != "") {
+      
+      // Hook:Maestrano
+      // Check Maestrano session is still valid
+      if ($maestrano->isSsoEnabled()) {
+        if (!$maestrano->getSsoSession()->isValid()) {
+          header("Location: " . $maestrano->getSsoInitUrl());
+          exit;
+        }
+      }
 			require_once($GLOBALS['PATHTOINTERLEAVE'] . "getset.php");
+      
 		} elseif (substr($_SERVER['SCRIPT_NAME'], strlen($_SERVER['SCRIPT_NAME']) - 9, 9) != "login.php" && substr($_SERVER['SCRIPT_NAME'], strlen($_SERVER['SCRIPT_NAME']) - 16, 16) != "forgotpasswd.php") {
 			if ($_REQUEST['url_to_go'] != "" || $_REQUEST['url_to_go_to']) {
 				if ($_REQUEST['url_to_go'] == "") {
@@ -142,6 +161,12 @@ if (!$GLOBALS['INITIATED']) {
 				}
 				$extraheader = "?url_to_go_to=" .  $_REQUEST['url_to_go'];
 			}
+      // Hook:Maestrano
+      // Redirect to SSO login
+      if ($maestrano->isSsoEnabled()) {
+        header("Location: " . $maestrano->getSsoInitUrl());
+        exit;
+      }
 			header("Location: login.php" . $extraheader);
 			exit;
 		} else {
@@ -152,12 +177,11 @@ if (!$GLOBALS['INITIATED']) {
 				}
 			}
 			$lang = do_language();
-
+      
 			// Auto-login?
 			$tmp = GetSetting("AutoLoginUserID");
 			$uriString = GetSetting("AutoLoginURIString");
 			if (is_numeric($tmp) && (($uriString != "" && stristr($_SERVER['HTTP_HOST'], $uriString) || $uriString == ""))) {
-
 				if (AuthenticateUser3(GetUserLoginNameByID($tmp), "", true, true) && !is_administrator($tmp)) {
 					GenerateSecret(GetUserLoginNameByID($tmp));
 					$GLOBALS['USERID'] = $tmp;
@@ -206,7 +230,7 @@ if (!$GLOBALS['INITIATED']) {
 			}
 			$noload = true;
 		}
-		
+    
 		if (!$noload) {
 			require_once($GLOBALS['PATHTOINTERLEAVE'] . "lib/class.phpmailer.php");
 
@@ -240,10 +264,12 @@ if (!$GLOBALS['INITIATED']) {
 
 }
 
+
 if (($_REQUEST['url_to_go'] != "" || $_REQUEST['url_to_go_to']) && is_numeric($GLOBALS['USERID'])) {
 	if ($_REQUEST['url_to_go'] == "") {
 		$_REQUEST['url_to_go'] = $_REQUEST['url_to_go_to'];
 	}
+  
 	$requested_page	= str_replace("|", "&", $_REQUEST['url_to_go']);
 	header("Location: " . $requested_page);
 	print "	

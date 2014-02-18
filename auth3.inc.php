@@ -37,22 +37,29 @@ if (isset($_REQUEST['logout'])){
   log_msg("Logoff " . $name,"");
   $sql = "DELETE FROM " . $GLOBALS['TBL_PREFIX'] . "sessions WHERE temp='" . mres($session) . "'";
   mcq($sql,$db);
-  if ($_REQUEST['expire']) {
-		$timeout = GetSetting("timeout");
-		$_REQUEST['session'] = base64_encode($lang['signedoffdue1'] . "&nbsp;" . $timeout . "&nbsp;" . $lang['signedoffdue2']);
-		require("login.php");
-		exit;
-
+  
+  // Hook:Maestrano
+  // Logout from application
+  $maestrano = MaestranoService::getInstance();
+  if ($maestrano->isSsoEnabled()) {
+    header("Location: " . $maestrano->getSsoLogoutUrl());
   } else {
-	  do_language();
-	  $_REQUEST['session'] = base64_encode($lang['signedoff']);
-	  require("login.php");
-	  exit;
+    if ($_REQUEST['expire']) {
+  		$timeout = GetSetting("timeout");
+  		$_REQUEST['session'] = base64_encode($lang['signedoffdue1'] . "&nbsp;" . $timeout . "&nbsp;" . $lang['signedoffdue2']);
+  		require("login.php");
+  		exit;
+
+    } else {
+  	  do_language();
+  	  $_REQUEST['session'] = base64_encode($lang['signedoff']);
+  	  require("login.php");
+  	  exit;
+    }
   }
 
 } elseif ($_REQUEST['username'] && $_REQUEST['password'] && !$_COOKIE['session']) {
-
-
+  
 	AuthenticateUser($_REQUEST['username'], $_REQUEST['password'], $_REQUEST['silent']);
 	InitUser();
 
@@ -148,9 +155,8 @@ if (isset($_REQUEST['logout'])){
 	}
 	$session = $md5str;
 } elseif (($_REQUEST['session'] || $session || $_COOKIE['session']) && !isset($_REQUEST['NoSession']) && !isset($_REQUEST['AutomaticPublicLogin'])) {
-
 		//check if code is correct and if time correct and not older than 30 minutes
-
+    var_dump($_REQUEST['session']);
 		if (!$_REQUEST['session'] && $session != "") {
 			$_REQUEST['session'] = $session;
 		} elseif ($_COOKIE['session']) {
