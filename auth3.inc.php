@@ -156,7 +156,6 @@ if (isset($_REQUEST['logout'])){
 	$session = $md5str;
 } elseif (($_REQUEST['session'] || $session || $_COOKIE['session']) && !isset($_REQUEST['NoSession']) && !isset($_REQUEST['AutomaticPublicLogin'])) {
 		//check if code is correct and if time correct and not older than 30 minutes
-    var_dump($_REQUEST['session']);
 		if (!$_REQUEST['session'] && $session != "") {
 			$_REQUEST['session'] = $session;
 		} elseif ($_COOKIE['session']) {
